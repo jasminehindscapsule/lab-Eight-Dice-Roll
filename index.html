@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Dice Roll</title>
+    <style>
+        h1 {
+            color: blue;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dice Roll</h1>
+    <p>Choose a die to roll:</p>
+    <button onclick="rollDice(4)">D4</button>
+    <button onclick="rollDice(6)">D6</button>
+    <button onclick="rollDice(8)">D8</button>
+    <button onclick="rollDice(10)">D10</button>
+    <button onclick="rollDice(12)">D12</button>
+    <button onclick="rollDice(20)">D20</button>
+    <p id="result"></p>
+
+    <script src="rollDice.js"></script>
+</body>
+</html>
